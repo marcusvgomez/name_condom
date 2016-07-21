@@ -4,11 +4,11 @@
  * @see http://developer.chrome.com/apps/app.runtime.html
  * @see http://developer.chrome.com/apps/app.window.html
  */
-if (document.title.indexOf("Google") != -1) {
+if (document.title.indexOf("Facebook") != -1) {
 	//Creating Elements
-	var btn = document.createElement("BUTTON")
+	var btn = document.createElement("BUTTON");
 	var t = document.createTextNode("CLICK ME");
 	btn.appendChild(t);
-	//Appending to DOM 
+	//Appending to DOM
 	document.body.appendChild(btn);
 }
